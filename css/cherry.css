@@ -1,4 +1,28 @@
+/*The cherry on the cake*/
+
+*
+{
+	font-family: Corben serif;
+}
+
 dl.tabs dd
 {
-	min-width: 20em;
+  min-width: 20em;
+}
+
+.panel
+{
+	padding-bottom: 0.01em;
+}
+/* Désactive la bordure dans le slider, car foundation et liquid-slider utilisent 
+   le même nom de classe : panel */
+.slider-id-panel
+{
+  border: none;
+  font-family: Corben serif;
+}
+
+#slider-id-nav-ul li
+{
+	font-size: 1.7em;
 }

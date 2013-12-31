@@ -6,8 +6,11 @@
     <title>Portfolio | Jean-Noël Chiganne</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/animate.css"> 
+    <link rel="stylesheet" href="css/liquid-slider.css">
     <link rel="stylesheet" href="css/cherry.css" />
     <script src="js/modernizr.js"></script>
+
   </head>
   <body>
     
@@ -21,36 +24,94 @@
       <div class="large-11 columns">
         <div class="panel">
           <h4>Recherche un stage en Réalité Virtuelle ou dans le jeu-vidéo </h4>
-          <p>Passionné par l'immersion, l'interaction et la narration interactive, c'est tout naturellement que je souhaite m'orienter vers le jeu vidéo et la réalité virtuelle. Je recherche actuellement un stage dans ce domaine, en France ou à l'étranger.</p>
+          <p class="text-justify">Passionné par l'immersion, l'interaction et la narration interactive, c'est tout naturellement que je souhaite m'orienter vers le jeu vidéo et la réalité virtuelle. Je recherche actuellement un stage dans ce domaine, en France ou à l'étranger.</p>
           <div class="row">
-            <div class="large-4 medium-4 columns">
-          <p><a href="http://www.linkedin.com/profile/view?id=207985018&trk=nav_responsive_tab_profile">Profil LinkedIn</a></p>
-        </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="https://github.com/L-Naej">Retrouvez-moi sur Github</a></p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="https://twitter.com/Leon_Naej">@Leon_Naej</a></p>
+            <div class="large-3 medium-3 right columns">
+              <p><a href="http://www.linkedin.com/profile/view?id=207985018&trk=nav_responsive_tab_profile"><img src="img/logo-linkedin.png" title="Mon profil LinkedIn" alt="Profil LinkedIn"/></a>              
+              <a href="https://github.com/L-Naej"><img src="img/GitHub-Mark-32px.png" title="Retrouvez-moi sur GitHub" alt="Profil Github"/></a>
+              <a href="https://twitter.com/Leon_Naej"><img src="img/twitter_logo.png" title="Retrouvez-moi sur Twitter" alt="Profil twitter"/></a></p>
             </div>        
           </div>
         </div>
       </div>
     </div>
 
-    <div class="row">
-      <div class="large-4 large-centered columns">
-        <ul class="breadcrumbs"> 
-          <li><a href="#">Compétences</a></li>
-          <li><a href="#">Projets</a></li>
-          <li><a href="#">CV</a></li>
-        </ul>
+      <div class="liquid-slider " id="slider-id"> 
+        
+       <div>
+          <h2 class="title">Compétences</h2>
+            <div class="row">
+              <div class="large-12 columns">
+                <h3>Compétences principales</h3>
+                <br/>
+              </div>
+            </div>
+
+            <div class="row"> 
+              <div class="small-1 columns">
+              <h4>C++</h4>
+              </div>  
+              <div class="large-10 columns">      
+                <div class="progress nice round"> <span class="meter" style="width: 70%"></span> </div>
+              </div>
+            </div>
+
+            <div class="row"> 
+              <div class="small-1 columns">
+              <h4>C</h4>
+              </div>  
+              <div class="large-10 columns">      
+                <div class="progress success round"> <span class="meter" style="width: 70%"></span> </div>
+              </div>
+            </div>
+
+            <div class="row"> 
+              <div class="small-1 columns">
+              <h4>Java</h4>
+              </div>  
+              <div class="large-10 columns">      
+                <div class="progress alert round"> <span class="meter" style="width: 70%"></span> </div>
+              </div>
+            </div>
+
+            <div class="row"> 
+              <div class="small-1 columns">
+              <h4>OpenGL</h4>
+              </div>  
+              <div class="large-10 columns">      
+                <div class="progress round"> <span class="meter" style="width: 60%"></span> </div>
+              </div>
+            </div>
+
+
+       </div>
+       <div>
+          <h2 class="title">Projets</h2>
+            Blabla projets
+       </div>
+       <div>
+          <h2 class="title">Expérience</h2>
+            Blabla CV
+       </div>
+
       </div>
-    </div>
-    
+
     <script src="js/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.touchSwipe.min.js"></script>
+    <script src="js/jquery.liquid-slider.min.js"></script>
     <script>
       $(document).foundation();
+
+      /* If installing in the footer, you won't need $(function() {} */
+      $('#slider-id').liquidSlider({
+        dynamicTabsAlign : "center",
+        dynamicArrows: false,
+        minHeight: 400,
+        includeTitle: false
+      });
+ 
     </script>
   </body>
 </html>
