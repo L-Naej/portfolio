@@ -9,8 +9,6 @@
     <link rel="stylesheet" href="css/animate.css"> 
     <link rel="stylesheet" href="css/liquid-slider.css">
     <link rel="stylesheet" href="css/cherry.css" />
-    <script src="js/modernizr.js"></script>
-
   </head>
   <body>
     
@@ -126,8 +124,8 @@
        <div>
           <h2 class="title">Projets</h2>
             <ul class="small-block-grid-3"> 
-              <li><a href="./imagimp.html" data-reveal-id="imagimp-modal" data-reveal-ajax="true"><img src="img/IMAGIMP/imagimp_sepia.png"/>IMAGIMP</a></li>
-              <li><img src="img/ITD/monsters_and_towers.png"/><br/>Imac Tower Defense</li>
+              <li><a href="./imagimp.html" data-reveal-id="mymodal" data-reveal-ajax="true"><img src="img/IMAGIMP/imagimp_sepia.png"/>IMAGIMP</a></li>
+              <li><a href="./itd.html" data-reveal-id="mymodal" data-reveal-ajax="true"><img src="img/ITD/monsters_and_towers.png"/><br/>Imac Tower Defense</a></li>
               <li>IMAKart</li>
               <li>FeedBack</li>
               <li>VirtuOSE</li>
@@ -147,14 +145,16 @@
       </div>
 
     <!--Modal pour les projets -->
-    <div id="imagimp-modal" class="reveal-modal" data-reveal>
+    <div id="mymodal" class="reveal-modal" data-reveal>
     </div>
   
     <script src="js/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="js/foundation/foundation.clearing.js"></script>
     <script src="js/jquery.easing.1.3.js"></script>
     <script src="js/jquery.touchSwipe.min.js"></script>
     <script src="js/jquery.liquid-slider.min.js"></script>
+    <script src="js/modernizr.js"></script>
     <script>
       $(document).foundation();
 

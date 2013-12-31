@@ -2,18 +2,12 @@
 
 *, h1, h2, h3, h4, h5, h6
 {
-	font-family: Corben serif;
-}
-
-
-#introduction p
-{
-	font-size : 0.9em;
+  font-family: Corben serif;
 }
 
 .panel.callout
 {
-	 background: none repeat scroll 0% 0% rgb(236, 250, 255);
+  background: none repeat scroll 0% 0% rgb(236, 250, 255);
 }
 
 dl.tabs dd
@@ -37,4 +31,20 @@ dl.tabs dd
 #slider-id-nav-ul li
 {
 	font-size: 1.7em;
+}
+
+#mymodal p
+{
+  font-family: corben;
+  font-size: 1.2em;
+}
+
+#mymodal p .note
+{
+  font-size: 0.7em;
+}
+
+#mymodal.panel
+{
+  padding : 1em
 }
