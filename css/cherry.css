@@ -1,8 +1,19 @@
 /*The cherry on the cake*/
 
-*
+*, h1, h2, h3, h4, h5, h6
 {
 	font-family: Corben serif;
+}
+
+
+#introduction p
+{
+	font-size : 0.9em;
+}
+
+.panel.callout
+{
+	 background: none repeat scroll 0% 0% rgb(236, 250, 255);
 }
 
 dl.tabs dd
@@ -13,6 +24,7 @@ dl.tabs dd
 .panel
 {
 	padding-bottom: 0.01em;
+	font-family: Corben serif;
 }
 /* Désactive la bordure dans le slider, car foundation et liquid-slider utilisent 
    le même nom de classe : panel */
