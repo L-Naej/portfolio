@@ -1,19 +1,59 @@
 /*The cherry on the cake*/
 
-*, h1, h2, h3, h4, h5, h6, p
+body
 {
-  font-family: Corben, serif;
+  background-color: white;
 }
 
-.panel.callout p
+#mybody */*, h1, h2, h3, h4, h5, h6, p*/
 {
-  font-family: Corben, serif;
+  font-family: Corbel, serif;
+  color: white;
+}
+
+#site_title h3
+{
+  color: black;
+  font-size: 4em;
+}
+
+.ls-wrapper .ls-nav .current
+{
+  background-color: rgb(51, 51, 51);
+}
+
+.ls-wrapper .ls-nav li
+{
+  background-color: rgb(51, 51, 51);
+}
+
+#mybody .ls-wrapper .ls-nav a:hover
+{
+  color: black;
+}
+
+/* Panels */
+.panel, #slider-id.liquid-slider
+{
+  background-color: rgb(51, 51, 51);
+}
+
+#mybody .panel.callout h4
+{
+  font-weight: bold;
+}
+
+#mybody .panel.callout p
+{
+  font-family: Corbel, serif;
   font-size: 1.05em;
+  font-weight: bold;
 }
 
 .panel.callout
 {
-  background: none repeat scroll 0% 0% rgb(236, 250, 255);
+  background: none repeat scroll 0% 0% #6A6A68;
+  border: none;
 }
 
 dl.tabs dd
@@ -31,7 +71,7 @@ dl.tabs dd
 .slider-id-panel
 {
   border: none;
-  font-family: Corben, serif;
+  font-family: Corbel, serif;
 }
 
 #slider-id-nav-ul li
@@ -42,7 +82,7 @@ dl.tabs dd
 /* Projects */
 #mymodal p
 {
-  font-family: Corben, serif;
+  font-family: Corbel, serif;
   font-size: 1.2em;
 }
 
@@ -64,7 +104,7 @@ dl.tabs dd
 /* Work epxerience */
 .work_experience
 {
-  background: none repeat scroll 0% 0% rgb(236, 250, 255);
+  /*background: none repeat scroll 0% 0% #15A38D;*/
   padding-top: 1em;
   padding-left: 1em;
   padding-right: 1em;
@@ -73,7 +113,7 @@ dl.tabs dd
 .work_experience p, .work_experiencee h3
 {
   text-align: justify;
-  font-family: Corben, serif;
+  font-family: Corbel, serif;
 }
 
 .work_experience h3
