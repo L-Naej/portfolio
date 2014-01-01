@@ -84,6 +84,12 @@ dl.tabs dd
   padding-top: 0.2em;
 }
 
+.work_experience h3 img
+{
+  position: relative;
+  left: 10%;
+}
+
 .work_experience p.note
 {
   font-size: 0.9em;
