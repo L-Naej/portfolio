@@ -80,6 +80,11 @@ dl.tabs dd
 }
 
 /* Projects */
+#mymodal *
+{
+  color: rgb(51, 51, 51);
+}
+
 #mymodal p
 {
   font-family: Corbel, serif;
