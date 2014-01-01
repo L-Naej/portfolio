@@ -1,8 +1,14 @@
 /*The cherry on the cake*/
 
-*, h1, h2, h3, h4, h5, h6
+*, h1, h2, h3, h4, h5, h6, p
 {
-  font-family: Corben serif;
+  font-family: Corben, serif;
+}
+
+.panel.callout p
+{
+  font-family: Corben, serif;
+  font-size: 1.05em;
 }
 
 .panel.callout
@@ -18,14 +24,14 @@ dl.tabs dd
 .panel
 {
 	padding-bottom: 0.01em;
-	font-family: Corben serif;
+	font-family: Corben, serif;
 }
 /* Désactive la bordure dans le slider, car foundation et liquid-slider utilisent 
    le même nom de classe : panel */
 .slider-id-panel
 {
   border: none;
-  font-family: Corben serif;
+  font-family: Corben, serif;
 }
 
 #slider-id-nav-ul li
@@ -33,9 +39,10 @@ dl.tabs dd
 	font-size: 1.7em;
 }
 
+/* Projects */
 #mymodal p
 {
-  font-family: corben;
+  font-family: Corben, serif;
   font-size: 1.2em;
 }
 
@@ -47,4 +54,40 @@ dl.tabs dd
 #mymodal.panel
 {
   padding : 1em
+}
+
+#projects ul li
+{
+  text-align: center;
+}
+
+/* Work epxerience */
+.work_experience
+{
+  background: none repeat scroll 0% 0% rgb(236, 250, 255);
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.work_experience p, .work_experiencee h3
+{
+  text-align: justify;
+  font-family: Corben, serif;
+}
+
+.work_experience h3
+{
+  text-align: center;
+  border-bottom: solid rgb(200,200,200) 1px;
+  padding-bottom: 0.5em;
+  padding-top: 0.2em;
+}
+
+.work_experience p.note
+{
+  font-size: 0.9em;
+  font-style: italic;
+  padding: 0em;
+  margin: 0em;
 }
